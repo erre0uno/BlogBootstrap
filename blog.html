@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+
+</head>
+<body>
+
+    <main class="container">
+    
+  
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary" aria-label="Eighth navbar example">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Container</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </nav>
+      
+        <div class="nav-scroller py-1 mb-2 bg-dark ">
+          <nav class="nav d-flex justify-content-between">
+            <a class="p-2 link-secondary" href="#">Mundo</a>
+            <a class="p-2 link-secondary" href="#">Tecnologia</a>
+            <a class="p-2 link-secondary" href="#">Diseño</a>
+            <a class="p-2 link-secondary" href="#">Cultura</a>
+            <a class="p-2 link-secondary" href="#">Negocios</a>
+            <a class="p-2 link-secondary" href="#">Ciencia</a>
+            <a class="p-2 link-secondary" href="#">Viajes</a>
+          </nav>
+        </div>
+    
+      <div class="p-4 p-md-5 mb-4 rounded fondo-banner">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 fst-italic">Bienvenido a mi blog</h1>
+          <p class="lead my-3">Encontraras direfentes tematicas</p>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Noticias Actuales</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laudantium quia explica.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="./img/uno.jpg" alt=""  width="240" height="250">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Diseño</strong>
+              <h3 class="mb-0">Ultimas tecnologias de diseño</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="./img/dos.jpg" alt=""  width="240" height="250">
+    
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row g-5">
+        <div class="">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            From the Firehose
+          </h3>
+    
+          <article class="blog-post">
+            <h2 class="blog-post-title mb-1">Sample blog post</h2>
+            <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+    
+            <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+            <hr>
+            <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
+    
+            <div class="d-flex">
+              <div class="container mt-3 text-center">
+                <h2>Card uno</h2>
+                <div class="card " style="max-width:300px;" >
+                  <img class="card-img-top" src="./img/uno.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text conten-justify">Some example text some example text. John Doe is an architect and engineer Some example text some example text. John Doe is an architect</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="container mt-3 text-center">
+                <h2>Card dos</h2>
+                
+                <div class="card  " style="max-width:300px">
+                  <img class="card-img-top" src="./img/dos.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="d-flex justify-content-around">Some example text some example text. John Doe is an architect and engineer Some example text some example text. John Doe is an architect Some example text some example text. John Doe is an architect</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="container mt-3 text-center">
+                <h2>Card tres</h2>
+                
+                <div class="card  " style="max-width:300px;" >
+                  <img class="card-img-top" src="./img/uno.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="card-text conten-justify">Some example text some example text. John Doe is an architect and engineer Some example text some example text. John Doe is an architect</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                  </div>
+                </div>
+                <br>
+              </div>
+              <div class="container mt-3 text-center">
+                <h2>Card cuatro</h2>
+                
+                <div class="card  " style="max-width:300px">
+                  <img class="card-img-top" src="./img/dos.jpg" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">John Doe</h4>
+                    <p class="d-flex justify-content-around">Some example text some example text. John Doe is an architect and engineer Some example text some example text. John Doe is an architect Some example text some example text. John Doe is an architect</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                  </div>
+                </div>
+                <br>
+              </div>
+            </div>
+   
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </article>
+    
+          <article class="blog-post card">
+            <div class="card-header ">
+                <h3>Estadisticas de Votos</h3>
+                <p>Datos de las votaciones</p>
+            </div>
+            <div class="card-body">
+                <table class="table" id="example">
+                    <thead class="card-body">
+                      <tr>
+                        <th>Name</th>
+                        <th>Upvotes</th>
+                        <th>Downvotes</th>
+                      </tr>
+                    </thead>
+                    <tbody class="card-body">
+                      <tr>
+                        <td>Alice</td>
+                        <td>10</td>
+                        <td>11</td>
+                      </tr>
+                      <tr>
+                        <td>Bob</td>
+                        <td>4</td>
+                        <td>3</td>
+                      </tr>
+                      <tr>
+                        <td>Charlie</td>
+                        <td>7</td>
+                        <td>9</td>
+                      </tr>
+                      <tr>
+                          <td>Tiger Nixon</td>
+                          <td>61</td>
+                          <td>320</td>
+                      </tr>
+                      <tr>
+                          <td>Herrod Chandler</td>
+                          <td>59</td>
+                          <td>137</td>
+                      </tr>
+                      <tr>
+                          <td>Sonya Frost</td>
+                          <td>23</td>
+                          <td>103</td>
+                      </tr>
+                      <tr>
+                          <td>Jena Gaines</td>
+                          <td>30</td>
+                          <td>90</td>
+                      </tr>
+                      <tr>
+                          <td>Quinn Flynn</td>
+                          <td>22</td>
+                          <td>342</td>
+                      </tr>
+                      <tr>
+                          <td>Charde Marshall</td>
+                          <td>36</td>
+                          <td>470</td>
+                      </tr>
+                      <tr>
+                          <td>Haley Kennedy</td>
+                          <td>43</td>
+                          <td>313</td>
+                      </tr>
+                      <tr>
+                          <td>Tatyana Fitzpatrick</td>
+                          <td>19</td>
+                          <td>385</td>
+                      </tr>
+                      <tr>
+                          <td>Michael Silva</td>
+                          <td>66</td>
+                          <td>198</td>
+                      </tr>
+                      <tr>
+                          <td>Paul Byrd</td>
+                          <td>64</td>
+                          <td>725</td>
+                      </tr>
+                      <tr>
+                          <td>Gloria Little</td>
+                          <td>59</td>
+                          <td>237</td>
+                      </tr>
+                      <tr>
+                          <td>Bradley Greer</td>
+                          <td>41</td>
+                          <td>132</td>
+                      </tr>
+                      <tr>
+                          <td>Dai Rios</td>
+                          <td>35</td>
+                          <td>217</td>
+                      </tr>
+                      <tr>
+                          <td>Jenette Caldwell</td>
+                          <td>30</td>
+                          <td>345</td>
+                      </tr>
+                      <tr>
+                          <td>Yuri Berry</td>
+                          <td>40</td>
+                          <td>675</td>
+                      </tr>
+                      <tr>
+                          <td>Caesar Vance</td>
+                          <td>21</td>
+                          <td>106</td>
+                      </tr>
+                      <tr>
+                          <td>Doris Wilder</td>
+                          <td>23</td>
+                          <td>85</td>
+                      </tr>
+                      <tr>
+                          <td>Angelica Ramos</td>
+                          <td>47</td>
+                          <td>1,200</td>
+                      </tr>
+                      <tr>
+                          <td>Gavin Joyce</td>
+                          <td>42</td>
+                          <td>92</td>
+                      </tr>
+                      <tr>
+                          <td>Jennifer Chang</td>
+                          <td>28</td>
+                          <td>357</td>
+                      </tr>
+                      <tr>
+                          <td>Brenden Wagner</td>
+                          <td>28</td>
+                          <td>206</td>
+                      </tr>
+                      <tr>
+                          <td>Fiona Green</td>
+                          <td>48</td>
+                          <td>850</td>
+                      </tr>
+                      <tr>
+                          <td>Suki Burks</td>
+                          <td>53</td>
+                          <td>114</td>
+                      </tr>
+                      <tr>
+                          <td>Prescott Bartlett</td>
+                          <td>27</td>
+                          <td>145</td>
+                      </tr>
+                      <tr>
+                          <td>Gavin Cortez</td>
+                          <td>22</td>
+                          <td>235</td>
+                      </tr>
+                      <tr>
+                          <td>Martena Mccray</td>
+                          <td>46</td>
+                          <td>324</td>
+                      </tr>
+                      <tr>
+                          <td>Unity Butler</td>
+                          <td>47</td>
+                          <td>85</td>
+                      </tr>
+                      <tr>
+                          <td>Howard Hatfield</td>
+                          <td>51</td>
+                          <td>164</td>
+                      </tr>
+                      <tr>
+                          <td>Hope Fuentes</td>
+                          <td>41</td>
+                          <td>109</td>
+                      </tr>
+                      <tr>
+                          <td>Vivian Harrell</td>
+                          <td>62</td>
+                          <td>452</td>
+                      </tr>
+                      <tr>
+                          <td>Timothy Mooney</td>
+                          <td>37</td>
+                          <td>136</td>
+                      </tr>
+                      <tr>
+                          <td>Jackson Bradshaw</td>
+                          <td>65</td>
+                          <td>645</td>
+                      </tr>
+                      <tr>
+                          <td>Olivia Liang</td>
+                          <td>64</td>
+                          <td>234</td>
+                      </tr>
+                      <tr>
+                          <td>Bruno Nash</td>
+                          <td>38</td>
+                          <td>163</td>
+                      </tr>
+                      <tr>
+                          <td>Finn Camacho</td>
+                          <td>47</td>
+                          <td>87</td>
+                      </tr>
+                      <tr>
+                          <td>Serge Baldwin</td>
+                          <td>64</td>
+                          <td>138</td>
+                      </tr>
+                      <tr>
+                          <td>Zenaida Frank</td>
+                          <td>63</td>
+                          <td>125</td>
+                      </tr>
+                      <tr>
+                          <td>Zorita Serrano</td>
+                          <td>56</td>
+                          <td>115</td>
+                      </tr>
+                      <tr>
+                          <td>Jennifer Acosta</td>
+                          <td>43</td>
+                          <td>75</td>
+                      </tr>
+                      <tr>
+                          <td>Cara Stevens</td>
+                          <td>46</td>
+                          <td>145</td>
+                      </tr>
+                      <tr>
+                          <td>Hermione Butler</td>
+                          <td>47</td>
+                          <td>356</td>
+                      </tr>
+                      <tr>
+                          <td>Lael Greer</td>
+                          <td>21</td>
+                          <td>103</td>
+                      </tr>
+                      <tr>
+                          <td>Jonas Alexander</td>
+                          <td>30</td>
+                          <td>86</td>
+                      </tr>
+                      <tr>
+                          <td>Shad Decker</td>
+                          <td>51</td>
+                          <td>183</td>
+                      </tr>
+                      <tr>
+                          <td>Michael Bruce</td>
+                          <td>29</td>
+                          <td>183</td>
+                      </tr>
+                      <tr>
+                          <td>Donna Snider</td>
+                          <td>27</td>
+                          <td>112</td>
+                      </tr>
+      
+      
+      
+      
+                    </tbody>
+                    <div class="card-footer">
+                        <tfoot>
+                            <tr>
+                              <td>Nombre</td>
+                              <td>Upvotes</td>
+                              <td>Downvotes</td>
+                            </tr>
+                          </tfoot>
+     
+                    </div>
+                  </table>
+     
+            </div>
+    
+    
+          </article>
+
+
+          <articule class="blog-post">
+            <h3>Tabla 2</h3>
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                The current link item
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+              <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+              <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+              <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+            </div>
+          </articule>
+    
+          <article class="blog-post">
+            <h2 class="blog-post-title mb-1">Caracteristicas</h2>
+              <li>First list item</li>
+              <li>Second list item with a longer description</li>
+              <li>Third list item to close it out</li>
+            </ul>
+          </article>
+    
+          <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+            <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
+          </nav>
+    
+        </div>
+    
+      </div>
+    
+    </main>
+    
+      <footer class="blog-footer">
+        <p> Plantilla de Blog <a href="https://getbootstrap.com/">Bootstrap</a> por <a href="https://twitter.com/mdo">@Erre0uno</a>.</p>
+      </footer>    
+
+
+
+
+</body>
+</html>
